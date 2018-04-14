@@ -6,14 +6,18 @@
 <h2> The Way to Go: A Thorough Introduction to the Go Programming Language</h2>
 <h3>Core Constructs & Techniques of the Language</h3>
 <h4>FileNames</h4>
-<p>This section is mostly terminalogy:</p>
-<ul><li>source-code
-	<ul><li>"a text listing of commands to be compiled or assembled into an executable computer program"
-	    <li>source-code is stored in .go files</ul>
-    <li>.go files
-	<ul><li>contains go source code
-	    <li>identifier rules
-		<ul><li>always begin with a letter
+<h4>Identifiers(a.k.a. names)</h4>
+<p>Some interesting points:
+<ul><li>a "letter" is any letter in Unicode UTF-8
+    <li>_ is the "blank identifier" (its value is always discarded)
+    <li>anonymity(no identifier given) => "flexibility"
+    <ul><li>anonymous values
+	<li>anonymous types
+        <li>anonymous functions</ul></ul>
+<h4>Keywords<h4>
+<p>Some interesting points:</p>
+    <ul><li>Keywords slow down code-parsing (1st step in compiling)
+        <li><a href="https://golang.org/ref/spec#Keywords"> Keywords List</a>
 		    <li>zero or more letters or Unicode digits
 			<ul><li>letter is "every letter in Unicode-8 or the _ .
 		    <li>no spaces or "special charactors  
