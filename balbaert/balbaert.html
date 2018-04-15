@@ -24,6 +24,31 @@
     <li>operators
     <li>types
     <li>functions</ul>
+<h4>Packages, import and visability</h4>
+<ul><li>A program is constructed as a package
+    <li>Many .go files can belong to one package
+    <li>Package Declaration - The package to which the code-file belongs must be indicated on the first line
+    <li>Each Go application conatins one package called main
+    <li>So, If I have this right...
+<ul><li>Many statements can in a source-code file
+    <li>Many source code files can be in a package
+    <li>Many packages can be in an application 
+    <li>The application package with the standalone executable is called "main"package)</ul></ul>
+<h4>Standard Library</h4>
+<ul><li>Ready to use packages that are part of the Go installation
+    <li>A Go program is created by linking together a set of packages through the import declaration
+<ul><li>example: import "fmt" tells go that the program needs elements from the package fmt.
+    <li>Import "loads" the public declarations from the compiled package</ul></ul>
+<h4>Factoring the Keyword</h4>
+<ul><li>Using seperate keyword statements
+<ul><li>import "fmt"
+    <li>import "os"</ul>
+    <li>Factoring the keyword import
+<ul><li>import (
+    <li>"fmt"
+    <li>"os"
+    <li>)</ul>
+</ul>
 <p><a href="../index.html">Return to Main Page</a></p>
 </body>
 </html>
