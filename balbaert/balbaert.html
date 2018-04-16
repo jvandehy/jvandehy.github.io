@@ -9,7 +9,11 @@
     <li><a href ="#Keywords">Keywords</a>
     <li><a href ="#Predeclared Identifiers">Predeclared Identifiers</a>
     <li><a href ="#Program Components">Program Components</a>
-    <li><a href ="#Packages, import and visibility">Packages, Import and Visability</a></ul>
+    <li><a href ="#Packages, import and visibility">Packages, Import and Visability</a>
+    <li><a href ="#Standard Library">Standard Library</a>
+    <li><a href ="#Factoring the Keyword">Factoring the Keyword</a>
+    <li><a href ="#Visability Rule">Visability Rule</a>
+</ul>
 <h4>FileNames</h4>
 <h4 id="Identifiers">Identifiers(a.k.a. names)</h4>
 <ul><li>a "letter" is any letter in Unicode UTF-8
@@ -45,13 +49,13 @@
     <li>Many packages can be in an application 
     <li>The application package with the standalone executable is called "main"package</ul></ul>
 <p><a href="#Jump Section">Jump Section</a></p>
-<h4>Standard Library</h4>
+<h4 Id="Standard Library">Standard Library</h4>
 <ul><li>Ready to use packages that are part of the Go installation
     <li>A Go program is created by linking together a set of packages through the import declaration
 <ul><li>example: import "fmt" tells go that the program needs elements from the package fmt.
     <li>Import "loads" the public declarations from the compiled package</ul></ul>
 <p><a href="#Jump Section">Jump Section</a></p>
-<h4>Factoring the Keyword</h4>
+<h4 Id="Factoring the Keyword">Factoring the Keyword</h4>
 <ul><li>Using separate keyword statements
     <p>import "fmt"
     <p>import "os"
@@ -61,6 +65,12 @@
     <p>"os"
     <p> )
 </ul>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Visability Rule">Visability Rule</h4>
+<p> When the identifier starts with an UPPERCASE letter,
+<p> the object of the identifier is available to client-programs
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Dot Notation">Dot Notation</h4>
 <p><a href="../index.html">Return to Main Page</a></p>
 </body>
 </html>
