@@ -4,27 +4,37 @@
 <h1>Balbaert, Ivo (2012)</h1>
 <h2> The Way to Go: A Thorough Introduction to the Go Programming Language</h2>
 <h3>Core Constructs & Techniques of the Language</h3>
+<h3 Id="Jump Section">Jump Section</h3>
+<ul><li><a href ="#Identifiers">Identifiers</a>
+    <li><a href ="#Keywords">Keywords</a>
+    <li><a href ="#Predeclared Identifiers">Predeclared Identifiers</a>
+    <li><a href ="#Program Components">Program Components</a>
+    <li><a href ="#Packages, import and visibility>Packages, Import and Visability"</a></ul>
 <h4>FileNames</h4>
-<h4>Identifiers(a.k.a. names)</h4>
+<h4 id="Identifiers">Identifiers(a.k.a. names)</h4>
 <ul><li>a "letter" is any letter in Unicode UTF-8
     <li>_ is the "blank identifier" (its value is always discarded)
     <li>anonymity(no identifier given) => "flexibility"
     <ul><li>anonymous values
 	<li>anonymous types
         <li>anonymous functions</ul></ul>
-<h4>Keywords</h4>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Keywords">Keywords</h4>
 <ul><li><a href="https://golang.org/ref/spec#Keywords"> Keywords</a> slow down compilation code parsing</ul>
-<h4>Predeclared Identifiers</h4>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Predeclared Identifiers">Predeclared Identifiers</h4>
 <ul><li>elementary types
     <li>built-in functions</ul>
-<h4>Program Components</h4>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Program Components">Program Components</h4>
 <ul><li>keywords
     <li>constants
     <li>variables
     <li>operators
     <li>types
     <li>functions</ul>
-<h4>Packages, import and visability</h4>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id ="Packages">Packages, import and visability</h4>
 <ul><li>A program is constructed as a package
     <li>Many .go files can belong to one package
     <li>Package Declaration - The package to which the code-file belongs must be indicated on the first line
@@ -34,11 +44,13 @@
     <li>Many source code files can be in a package
     <li>Many packages can be in an application 
     <li>The application package with the standalone executable is called "main"package</ul></ul>
+<p><a href="#Jump Section">Jump Section</a></p>
 <h4>Standard Library</h4>
 <ul><li>Ready to use packages that are part of the Go installation
     <li>A Go program is created by linking together a set of packages through the import declaration
 <ul><li>example: import "fmt" tells go that the program needs elements from the package fmt.
     <li>Import "loads" the public declarations from the compiled package</ul></ul>
+<p><a href="#Jump Section">Jump Section</a></p>
 <h4>Factoring the Keyword</h4>
 <ul><li>Using seperate keyword statements
 <ul><li>import "fmt"
