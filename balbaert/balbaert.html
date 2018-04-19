@@ -13,6 +13,9 @@
     <li><a href ="#Standard Library">Standard Library</a>
     <li><a href ="#Factoring the Keyword">Factoring the Keyword</a>
     <li><a href ="#Visability Rule">Visability Rule</a>
+    <li><a href ="#Dot Notation">Dot Notation</a>
+    <li><a href ="#Package Alias">Package Alias</a>
+    <li><a href="#Package level Declarations"></a>
 </ul>
 <h4>FileNames</h4>
 <h4 id="Identifiers">Identifiers(a.k.a. names)</h4>
@@ -71,6 +74,32 @@
 <p> the object of the identifier is available to client-programs
 <p><a href="#Jump Section">Jump Section</a></p>
 <h4 Id="Dot Notation">Dot Notation</h4>
+<p> Dot notation is the method for refering to a particular object from a particular package.
+<p> If Thing is an object from package pack1, its name in the current package is pack1.Thing
+<h4 Id ="Package Alias">Package Alias</h4>
+<p> The is a way to refer to an imported package by a different name.
+<p> This is apparently done to avoid identifier conflicts
+<P> For Example:
+<p>    package main
+<p>    import  goober "fmt"
+<p>    func main() {
+<p>        goober.Println("eat more chicken")
+<p>        }
+<p><a href="https://play.golang.org/p/leR1ngx01yi">Alias Example</a>
+<p><a href="#Jump Section">Jump Section</a></p>
+<h4 Id="Package Level Declarations">Package Level Declarations</h4>
+<p> For Example:
+<p>package main
+      import "fmt"
+      const h = true 	// zero or more constants can be declared after the import declaration
+                	// The constants declared here are "Global"
+                	// constants which are global have "package scope"
+	        	// constants with package scope are known to all functions
+      func main() {
+          fmt.Println(h)
+          }
+<p><a href="https://play.golang.org/p/y5SUxgH19qU">Package Level Declaration Exmaple</a> 
+<p><a href="#Jump Section">Jump Section</a></p>
 <p><a href="../index.html">Return to Main Page</a></p>
 </body>
 </html>
