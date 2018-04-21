@@ -79,25 +79,9 @@
 <h4 Id ="Package Alias">Package Alias</h4>
 <p> The is a way to refer to an imported package by a different name.
 <p> This is apparently done to avoid identifier conflicts
-<P> For Example:
-<p>    package main
-<p>    import  goober "fmt"
-<p>    func main() {
-<p>        goober.Println("eat more chicken")
-<p>        }
 <p><a href="https://play.golang.org/p/leR1ngx01yi">Alias Example</a>
 <p><a href="#Jump Section">Jump Section</a></p>
 <h4 Id="Package Level Declarations">Package Level Declarations</h4>
-<p> For Example:
-<p>package main
-      import "fmt"
-      const h = true 	// zero or more constants can be declared after the import declaration
-                	// The constants declared here are "Global"
-                	// constants which are global have "package scope"
-	        	// constants with package scope are known to all functions
-      func main() {
-          fmt.Println(h)
-          }
 <p><a href="https://play.golang.org/p/y5SUxgH19qU">Package Level Declaration Exmaple</a> 
 <p><a href="#Jump Section">Jump Section</a></p>
 <p><a href="../index.html">Return to Main Page</a></p>
