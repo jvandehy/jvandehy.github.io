@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Today I Learned CSS in Depth</title>
+		<link rel = "stylesheet"
+		      type =  "text/css"
+		      href = "style.css"/>
+	</head>
+	<body>
+		<div class="cont">
+			<h1>Reading Notes from Grant's "CSS IN DEPTH" </h1>
+		</div>
+		<div class="cards">
+			<div class="card">
+				<header>
+					<h2>Today I learned about "The Cascade"</h2>
+					<h2 class="date">July 14, 2018</h2>
+				</header>
+				<img src="https://c2.staticflickr.com/2/1825/43347482292_fd05f95a81_b.jpg" alt="Andrew Morse's Blended Dots">
+				<div class="body">
+					<h3>Fundamentally, CSS is About Declaring Rules</h3>
+					<p class = "notes">
+					<ul>
+						<li>We declare rules about what we want to happen under certain conditions
+						<li>Browser takes rules, figures out which apply where
+						<li>Browser renders page
+					</ul>
+					</p>
+
+					<h3>A Part of CSS Development Comes Down to Writing Rules in Such A Way That They're Predictable </h3>
+					<p class="notes">
+					<ul>
+						<li>small examples are straightforward
+						<li>code becomes complex quickly
+					</ul>
+					</p>
+
+					<h3>Predicting how rules behave requires and understanding of the cascade </h3>
+					<p class="notes">
+					<ul>
+						<li>What happens when two rules provide conflicting information
+						<li>How exactly does the browser make sense of your rules?
+					</ul>
+					</p>
+
+					<h3>Example: Basic page header</h3>
+					<p class="code">
+					<ol>
+						<li>&lt!doctype html&gt
+						<li>&lthead&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&ltlink href="styles.css" rel="stylesheet" type="text/css"/&gt
+						<li>&lt/head&gt	
+						<li>&ltbody&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&ltheader class="page-header"&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&lth1 id="page-title" class ="title"&gtWombat Coffee Roasters&lt/h1&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&ltnav&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&ltul id="main-nav" class="nav"&gt
+						
+
+
+
+						<li>&nbsp;&nbsp;&nbsp;&nbspi;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp:&nbsp;&nbsp;&nbsp;&nbsp:&nbsp;&nbsp;&nbsp;&ltli&gt&lta href="/"&gtHome&lt/a&gt&lt/li&gt
+
+
+
+
+
+
+
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&lt/ul&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&lt/nav&gt
+						<li>&nbsp;&nbsp;&nbsp;&nbsp&lt/header&gt
+						<li>&lt/body&gt
+					</ol>
+					</p>
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+			<div class="card">
+				<header>
+					<h2>Today I started this Journal</h2>
+					<h2 class="date">July 14, 2018</h2>
+				</header>
+				<img src="https://c2.staticflickr.com/2/1770/42477932465_10ec734267_b.jpg" alt="Anne Strickland's A Morning at Durdle Door">
+				<div class="body">
+					<h3>The journal starts here</h3>
+					<p>This is where I write about the journal or whatever</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
