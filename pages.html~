@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Pages</title>
 
     <!-- font awesome icons cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -32,12 +32,12 @@
                 <!-- collapse on toggle button click -->
                 <div class="collapse">
                     <ul class="navbar-nav">
-                        <a href="index.html" class="nav-link">Home</a>
-                        <a href="blog.html" class="nav-link">Blog</a>
-                        <a href="pages.html" class="nav-link">Pages</a>
-                        <a href="categories.html" class="nav-link">Categories</a>
-                        <a href="about.html" class="nav-link">About</a>
-                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">Pages</a>
+                        <a href="#" class="nav-link">Categories</a>
+                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="nav-link">Contact</a>
                     </ul>
                 </div>
 
